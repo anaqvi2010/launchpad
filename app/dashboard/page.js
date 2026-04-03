@@ -11,8 +11,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const SIDEBAR_ITEMS = [
   { label: "Overview", href: "/dashboard" },
   { label: "Personality", href: "/personality-test" },
-  { label: "My Activities", href: "/my-activities" },
-  { label: "Add Activity", href: "/add-activity" },
+  { label: "My Activities", href: "/dashboard/activities" },
+  { label: "Add Activity", href: "/dashboard/add-activity" },
   { label: "Opportunities", href: "/opportunities" },
   { label: "AI Coach", href: "/ai-coach" },
   { label: "Export Portfolio", href: "/export-portfolio" },
